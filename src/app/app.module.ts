@@ -12,6 +12,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
+import { EResourcesComponent } from './e-resources/e-resources.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     JumbotronComponent,
     AboutComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    EResourcesComponent
   ],
   imports: [
     BrowserModule,
